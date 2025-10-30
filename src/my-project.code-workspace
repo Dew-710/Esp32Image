@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../my-project"
+		},
+		{
+			"name": "esp32Image",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
