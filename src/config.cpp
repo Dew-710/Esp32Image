@@ -3,9 +3,9 @@
 
 const char* WIFI_SSID = "P419/3";
 const char* WIFI_PASS = "12345678@@";
-const char* WS_HOST   = "192.168.1.3";
-const int   WS_PORT   = 8080;   // 👈 Thêm dòng này
-const char* WS_PATH   = "/ws/iot";
+const char* WS_HOST   = "192.168.1.9";
+const int   WS_PORT   = 8080;
+const char* WS_PATH   = "/ws/iot?clientType=esp32";  // ⚠️ QUAN TRỌNG: Phải có query parameter
 
 void connectToWiFi() {
   WiFi.begin(WIFI_SSID, WIFI_PASS);

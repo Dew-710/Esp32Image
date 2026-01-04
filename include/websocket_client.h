@@ -3,10 +3,7 @@
 
 #include <WebSocketsClient.h>
 
-extern WebSocketsClient webSocket;
-
-void initWebSocket();
-void sendBase64Image(String base64Image);
-void decodeAndSaveImage();
+void webSocketEvent(WStype_t type, uint8_t * payload, size_t length);
+void initWebSocket(const char* server, uint16_t port, const char* path);
 
 #endif

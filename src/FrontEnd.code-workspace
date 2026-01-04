@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../DACS2/FrontEnd"
+		},
+		{
+			"name": "esp32Image",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
